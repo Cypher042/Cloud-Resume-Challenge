@@ -30,6 +30,7 @@ jobs:
               --account-name cypherscloudresume \
               --destination '$web' \
               --source ./frontend
+              --overwrite
 
       - name: Azure logout
         run: az logout
