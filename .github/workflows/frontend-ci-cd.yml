@@ -4,7 +4,7 @@ on:
     push:
         branches: [ main ]
         paths:
-        - 'fronted/**'
+        - 'frontend/**'
         
 permissions:
       id-token: write
